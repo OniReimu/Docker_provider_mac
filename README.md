@@ -14,10 +14,11 @@
     - Look up the docker container:
        - $ docker ps 
     - Enter the specific docker container:
-       - $ docker exec -it <Container ID> /bin/bash
+       - $ docker exec -it (Container ID) /bin/bash
   8. Directly SSH into the docker container by 
-       - $ vagrant ssh <VM ID>
-         Note that <VM ID> is shown in $ vagrant global-status
+       - $ vagrant ssh (VM ID)
+       
+         Note that (VM ID) is shown in $ vagrant global-status
 
   
 Note that SQL is not actually installed since I have not decided which SQL I will use. Thus it is just a normal sript validating the connection between two containers. And Vagrant itself should have supported the ansible provisioning directly without shell provisioning. However, the latest version of ansible contains some bugs that cause Vagrantfile cannot check the existance of ansible installed in containers.
