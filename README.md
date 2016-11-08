@@ -14,6 +14,7 @@
     - Look up the docker container:
        - $ docker ps 
     - Enter the specific docker container:
+    
        - $ docker exec -it (Container ID) /bin/bash
   8. Directly SSH into the docker container by 
        - $ vagrant ssh (VM ID)
