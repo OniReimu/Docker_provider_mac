@@ -2,8 +2,8 @@
 
            
 # Steps to setup:
-  1. Create a new file as your working directory for vagrant. Make sure you have all priviledges accessing to this directory.
-       - $ chmod 755 (The Path of this file) 
+  1. Create a new folder as your working directory for vagrant. Make sure you have all priviledges accessing to this directory.
+       - $ chmod 755 (The Path of this folder) 
   2. Clone all the files in this directory.
   3. Terminal
   4. Run:
